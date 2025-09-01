@@ -1,0 +1,69 @@
+#wraper {
+    width: 380px;
+    height: 550px;
+    background-color: hsl(0, 0%, 12%);
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+h4 {
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    margin-top: -15px;
+}
+
+h6 {
+    color: aliceblue;
+
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue
+}
+
+button {
+    background-color: rgb(82, 82, 82);
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: none;
+    color: aliceblue
+}
+
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#reduce{
+    height: 15%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; */
+  
+}
